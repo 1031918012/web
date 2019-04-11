@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link   href="video-js.min.css" rel="stylesheet">
+    <script src="video.min.js"></script>
+    <script src="videojs-flash.min.js"></script >
+    <script src="videojs-contrib-hls.min.js"></script >
+</head>
+<body>
+<video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered"  
+	   controls="false" preload="auto" autoplay="true" loop="true" withCredentials="true"
+	   poster="" data-setup="{ }">
+	<source src="rtmp://live.hkstv.hk.lxdns.com/live/hks1" type="rtmp/flv">
+	<source src="111.mp4" >
+	<p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。
+		To view this video please enable JavaScript, and consider upgrading to a web browser that
+		<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+	</p>
+</video>
+</body>
+</html>
